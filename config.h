@@ -65,7 +65,8 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	
+
+	{ keyboard_indicators, "%s", "caps " },
 	{ datetime, "%s",           "%F %T " },
 	{ username, "%s",		    },
 };
